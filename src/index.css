@@ -1,13 +1,151 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --navy: rgb(44, 62, 80);
+  --primary: rgb(26, 188, 156);
+  --darkNavy: rgb(26, 37, 47);
+  --overlay: rgba(26, 188, 156, 0.8);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* start of common styles */
+header,
+.footerContainer,
+.portfSec .line,
+.contactSec .line {
+  background-color: var(--navy);
 }
+
+.heroSec,
+.aboutSec,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.submitBtn,
+.submitBtn.btn:hover {
+  background-color: var(--primary);
+}
+
+.heroSec,
+.aboutSec,
+.portfSec,
+.contactSec,
+.error404 {
+  min-height: calc(100vh - 50px);
+  padding: 120px 0 50px 0;
+}
+
+.line {
+  width: 100px;
+  height: 4px;
+}
+
+.portfTitle,
+.portfSec .starLine i,
+.contactTitle,
+.contactSec .starLine i,
+.title404,
+.content404 {
+  color: var(--navy);
+}
+
+.icon i,
+.singlePortf {
+  cursor: pointer;
+}
+/* end of common styles */
+
+/* start of navbar component */
+header {
+  transition: padding-top 500ms, padding-bottom 500ms;
+}
+.navbar-nav .nav-link {
+  width: fit-content;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  border-radius: 5px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+/* end of navbar component*/
+
+/* start of footer component */
+.copyrightSec {
+  background-color: var(--darkNavy);
+}
+
+/* end of footer component */
+
+/* start of home component */
+.heroSec img {
+  width: 65%;
+}
+/* end of home component */
+
+/* start of portfolio component */
+.portfOverlay {
+  background-color: var(--overlay);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 500ms, visibility 700ms;
+}
+
+.singlePortf:hover .portfOverlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.portfOverlay i {
+  font-size: 4.5rem;
+}
+
+.imgBox {
+  background-color: rgba(26, 188, 156, 0.35);
+  z-index: 2000;
+}
+
+.imgBox img {
+  width: 500px;
+}
+/* end of portfolio component */
+
+/* start of contact component */
+
+.form-control {
+  border: none;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.formGroup {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 35px;
+}
+
+.contactSec form {
+  width: 60%;
+  margin-top: 70px;
+}
+
+.contactSec form label {
+  color: var(--primary);
+  top: 0;
+  z-index: -1;
+  transition: top 500ms;
+}
+
+/* Works for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Works for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/* end of contact component */

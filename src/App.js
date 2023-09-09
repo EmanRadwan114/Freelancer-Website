@@ -14,7 +14,6 @@ let routers = createBrowserRouter([
     element: <MasterLayout />,
     children: [
       { index: true, element: <Home /> },
-      { path: "home", element: <Home /> },
       { path: "about", element: <About /> },
       { path: "contact", element: <Contact /> },
       { path: "portfolio", element: <Portfolio /> },

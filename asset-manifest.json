@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Freelancer-Website/static/css/main.66e72e21.css",
+    "main.js": "/Freelancer-Website/static/js/main.d7287eb3.js",
+    "static/js/787.5c07caa3.chunk.js": "/Freelancer-Website/static/js/787.5c07caa3.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Freelancer-Website/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/Freelancer-Website/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/Freelancer-Website/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/Freelancer-Website/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/Freelancer-Website/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/poert1.png": "/Freelancer-Website/static/media/poert1.4417330275f78faa31c3.png",
+    "static/media/port3.png": "/Freelancer-Website/static/media/port3.494a4a914b5471b41f3e.png",
+    "static/media/fa-regular-400.woff2": "/Freelancer-Website/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/port2.png": "/Freelancer-Website/static/media/port2.6554473016d32b343f02.png",
+    "static/media/avataaars.svg": "/Freelancer-Website/static/media/avataaars.aa9aff02ddd0ef36a1724ecef4133df9.svg",
+    "static/media/error-6482984.svg": "/Freelancer-Website/static/media/error-6482984.8c20ccf7b634968faf2cf40d85ac53ea.svg",
+    "static/media/fa-v4compatibility.ttf": "/Freelancer-Website/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Freelancer-Website/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/Freelancer-Website/index.html",
+    "main.66e72e21.css.map": "/Freelancer-Website/static/css/main.66e72e21.css.map",
+    "main.d7287eb3.js.map": "/Freelancer-Website/static/js/main.d7287eb3.js.map",
+    "787.5c07caa3.chunk.js.map": "/Freelancer-Website/static/js/787.5c07caa3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66e72e21.css",
+    "static/js/main.d7287eb3.js"
+  ]
+}

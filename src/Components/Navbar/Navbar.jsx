@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="container-sm">
           <Link
             className="navbar-brand text-uppercase fw-bold fs-2 text-light"
-            to="/"
+            to="home"
           >
             start framework
           </Link>

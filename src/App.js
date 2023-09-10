@@ -10,10 +10,11 @@ import PageNotFound from "./Components/PageNotFound/PageNotFound";
 
 let routers = createBrowserRouter([
   {
-    path: "",
+    path: "Freelancer-Website",
     element: <MasterLayout />,
     children: [
       { index: true, element: <Home /> },
+      { path: "home", element: <Home /> },
       { path: "about", element: <About /> },
       { path: "contact", element: <Contact /> },
       { path: "portfolio", element: <Portfolio /> },

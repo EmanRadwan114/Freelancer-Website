@@ -106,7 +106,18 @@ header {
 }
 
 .imgBox img {
-  width: 500px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .imgBox img {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .imgBox img {
+    width: 40%;
+  }
 }
 /* end of portfolio component */
 
